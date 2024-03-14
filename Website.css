@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+#logo-div{
+    min-height: 20px;
+    background-color: rgb(202, 142, 74);
+    padding: 20px;
+    color: rgb(53, 24, 4);
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#Taskbar-div{
+    min-height: 10px;
+    background-color:white;
+    padding: 2px;
+    text-align: center;    
+}
+#Home{
+    width: 25%;
+    min-height: 20px;
+    background-color:white;
+    float: left;
+    padding: 20px;
+    text-align: center;
+}
+#Men{
+    width: 25%;
+    min-height: 20px;
+    background-color:white;
+    float: left;
+    padding: 20px;
+    text-align: center;
+}
+#Women{
+    width: 25%;
+    min-height: 20px;
+    background-color:white;
+    float: left;
+    padding: 20px;
+    text-align: center;
+}
+#Unisex{
+    width: 25%;
+    min-height: 20px;
+    background-color:white;
+    float: left;
+    padding: 20px;
+    text-align: center;
+}
+#header-banner-div{
+    min-height: 50px;
+    background-color: gray;
+    padding: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+#Image-div img{
+    min-height: 200px;
+    padding: 2px;
+    width: 100%;
+    background-size: cover;
+    background-size: contain;
+    line-height: 0%;
+    margin-bottom: 10px;
+}
+#Main-div .box:nth-child(2){
+    margin-left: 1%;
+}
+.box{
+    padding: 2px;
+    align-items: center;    
+    width: 24.15%;
+    min-height: 500px;
+    background-color:white;
+    float: left;
+}
+.box img{
+    min-height: 500px;
+    padding: 2px;
+    width: 100%;
+    background-size: cover;
+    background-size: contain;
+    line-height: 0%;
+    margin-bottom: 10px;
+}
+#Main-div .box:nth-child(3){
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+#Footer-div{
+    width: 100%;
+    min-height: 50px;
+    background-color: rgb(202, 142, 74);
+    padding: 50px;
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 10px;
+}
+#wrapper-div{
+    padding: 30px;
+}
